@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1,h2 ,h3,h4,h5{
+    font-weight: 650;
+
+}
+h6{
+    font-weight: 550;
+    color: blue;
+}
+.btn-saved{
+    outline: none;
+    border: none;
+    background-color: rgb(16, 16, 233);
+    color: white;
+    border-radius: 30px;
+    transition: all ease-in-out .4s;
+}
+.btn-saved:hover{
+    background-color: rgb(4, 4, 104);
+    color: white;
+}
+.service-sub-box{
+    padding: 25px;
+    box-shadow: inset 5px 5px 10px rgba(223, 223, 245, 0.685),
+     inset -5px -5px 10px rgba(223, 223, 245, 0.685);
+    transition: all ease-in-out .4s;
+}
+.service-sub-box:hover{
+    transform: translateY(10px);
+    box-shadow: none;
+}
+.service-sub-box:hover p{
+    color: blue;
+    transition: all ease-in-out .4s;
+}
+
+/*header*/
+
+header{
+    background: linear-gradient(rgba(54, 16, 192, 0.5),rgba(8, 173, 57, 0.5)),url(img/pexels-pixabay-210186.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+/*navbar*/
+
+.navbar-brand span{
+    color: blue;
+}
+.nav-link{
+
+
+}
+.nav-link:hover{
+    border-bottom: 1px solid blue;
+    padding: 5px;
+    transition: all ease-in-out .4s !important;
+    color: blue !important;
+}
+/*home*/
+
+.display-5{
+    font-weight: 550;
+    color: white;
+}
+.other-btn{
+    outline: none;
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: all ease-in-out .4s !important;
+    color: white;
+}
+.other-btn:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+/*service box*/
+
+.display-6{
+    font-weight: 550;
+}
+
+.service-sub-box:hover h6{
+    color: black;
+    transition: all ease-in-out .4s;
+}
+
+.service-icon-box{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+}
+/* freatures */
+
+.single-freatures{
+    display: flex;
+}
+.freatures-icon{
+    width: 100px;
+    height: 50px;
+    border-radius: 90px;
+    background-color: blue;
+    color: white;
+    margin-right: 1rem;
+}
+/* portfolio */
+
+.portfolio-img-box{
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-text-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 190px;
+    transition: all ease-in-out .4s;
+
+}
+.portfolio-img-box .portfolio-text-box:hover{
+    background-color: rgba(25, 0, 255, 0.466);
+    opacity: 1;
+    color: white;
+}
+.portfolio-img-box:hover img{
+    transform: scale(1.3);
+    transition: all ease-in-out .5s;
+}
+/* pricing */
+
+.flex-box{
+    display: flex;
+}
+.mark-box .mark{
+    font-size: 20px;
+    background-color: blue;
+    border-radius: 30px;
+}
+/* team */
+
+.team-img img{
+    border-radius: 200px;
+}
+.team-icon{
+    display: flex;
+}
+.team-icon i{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    margin: auto;
+    border-radius: 30px;
+    color: white;
+    font-size: 40px;
+}
+/* contact */
+
+.name{
+    width: 48%;
+    outline: none;
+    height: 5vh;
+    border: none;
+    background-color: rgb(230, 230, 230);
+}
+.subject{
+    width: 97%;
+    height: 5vh;
+    outline: none;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    
+}
+.massage{
+    width: 97%;
+    outline: none;
+    border: none;
+    background-color: rgb(230, 230, 230);
+}
+.contact-btn{
+    outline: none;
+    border: none;
+    width: 97%;
+    height: 5vh;
+    background-color: blue;
+    color: white;
+    transition: all ease-in-out .4s;
+}
+.contact-btn:hover{
+    background-color: rgb(7, 7, 192);
+    color: white;
+}
+/* footer */
+
+.similar-text h5{
+    color: white;
+}
+.similar-text p{
+    color: grey;
+}
